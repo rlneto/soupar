@@ -5,4 +5,4 @@ def soupar(number : int) -> None:
         print("O número é par!")
     
         
-soupar(input("Digite o número: "))
+soupar(int(input("Digite o número: ")))
